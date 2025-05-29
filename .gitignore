@@ -1,0 +1,56 @@
+# Power BI temporary files
+~$*.pbix
+~$*.pptx
+~$*.xlsx
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Large binary files
+*.pbix
+*.pptx
+*.xlsx
+*.jpg
+*.webp
+
+# Keep specific folders and their contents
+!DataCo/
+!Power BI/
+!process/
+!presentation/
+
+# Keep documentation files
+!README.md
+!LICENSE
+
+# Power BI specific
+*.pbix
+*.pbix.temp
+*.pbix.backup
+*.pbix.temp.backup
+
+# Windows specific
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large files to exclude
+DataCo/archive/DataCoSupplyChainDataset.csv
+DataCo/archive/tokenized_access_logs.csv
+Power BI/Updated and final.rar
+Power BI/*.pbix
+Power BI/DataCoSupplyChainDataset_2.xlsx
+
+# Keep compressed versions
+!DataCo/archive/large_files.zip 
